@@ -8,7 +8,7 @@ package com.allcoolboys.singleton;
  * @author coolboy
  */
 public class Singleton06 {
-    private static Singleton06 INSTANCE;
+    private static volatile Singleton06 INSTANCE;
 
     private Singleton06() {
     }
